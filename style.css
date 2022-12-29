@@ -1,0 +1,681 @@
+header {
+    background-color: white;
+    width: 1600px;
+    height: 80px;
+}
+
+span {
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.Studio {
+    /* Студія */
+
+
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    border-bottom: #2196F3;
+
+
+    color: #212121;
+}
+
+.div3 {
+    /* Портфоліо */
+
+
+    position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 551px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+
+}
+
+.div4 {
+    /* Контакти */
+
+
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 673px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.image {
+    /* envelope (hover) */
+
+
+    position: absolute;
+    left: 1147px;
+    right: 532px;
+    top: 27px;
+    bottom: 98.43%;
+    height: 25px;
+    width: 25px;
+}
+
+.a1 {
+    /* info@devstudio.com */
+
+
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1180px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: #757575;
+}
+
+.image1 {
+    /* Vector */
+
+
+    position: absolute;
+    left: 1370px;
+    right: 347px;
+    top: 27px;
+    bottom: 98.36%;
+    height: 25px;
+    width: 25px;
+}
+
+.a2 {
+    /* +38 096 111 11 11 */
+
+
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1400px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: #757575;
+}
+
+.button1 {
+    /* bg */
+
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+
+}
+
+.Preview {
+    background: url(./img/Img.svg);
+    height: 700px;
+    width: 1900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.div6 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+text {
+    margin-left: 37px;
+}
+
+.text {
+    /* Ефективні рішення для вашого бізнесу */
+
+
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 580px;
+    top: 340px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.WARNING {
+    /* Rectangle 3 */
+
+
+    position: absolute;
+    width: 270px;
+    height: 120px;
+    left: 215px;
+    top: 774px;
+    font-family: 'Roboto';
+
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.PUNCTUALITY {
+    /* Rectangle 2 */
+
+
+    position: absolute;
+    width: 270px;
+    height: 120px;
+    left: 515px;
+    top: 774px;
+    font-family: 'Roboto';
+
+    background: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.PLANNING {
+    /* Rectangle 3 */
+
+
+    position: absolute;
+    width: 270px;
+    height: 120px;
+    left: 815px;
+    top: 774px;
+    font-family: 'Roboto';
+
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.TECHNOLOGIES {
+    /* Rectangle 4 */
+
+
+    position: absolute;
+    width: 270px;
+    height: 120px;
+    left: 1115px;
+    top: 774px;
+    font-family: 'Roboto';
+
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.title {
+    /* Чим ми займаємося */
+
+
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 1116px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.photo {
+    list-style: none;
+
+}
+
+.computer {
+    /* img */
+
+
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1208px;
+}
+
+.phone {
+    /* img */
+
+
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1208px;
+}
+
+.tablet {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1208px;
+}
+
+.end {
+    position: absolute;
+    width: 1900px;
+    height: 708px;
+    left: 0px;
+    top: 1596px;
+
+    background: #F5F4FA;
+}
+
+.title2 {
+    /* Наша команда */
+
+
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 94px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+.card1 {
+    /* card bg */
+
+
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 215px;
+    top: 186px;
+
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card2 {
+    /* card bg */
+
+
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 515px;
+    top: 186px;
+
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card3 {
+    /* card bg */
+
+
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 815px;
+    top: 186px;
+
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card4 {
+    /* card bg */
+
+
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 1115px;
+    top: 186px;
+
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.man1 {
+    /* img */
+
+
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 186px;
+
+}
+
+.woman2 {
+    /* img */
+
+
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 186px;
+
+}
+
+.man3 {
+    /* img */
+
+
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 815px;
+    top: 186px;
+
+}
+
+.man4 {
+    /* img */
+
+
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 186px;
+
+}
+.info{
+    list-style: none;
+
+}
+.name1{
+/* Ігор Дем'яненко */
+
+
+position: absolute;
+width: 129px;
+height: 19px;
+left: 286px;
+top: 476px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.name2{
+/* Ольга Рєпіна */
+
+
+position: absolute;
+width: 104px;
+height: 19px;
+left: 598px;
+top: 476px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.name3{
+/* Микола Тарасов */
+
+
+position: absolute;
+width: 130px;
+height: 19px;
+left: 885px;
+top: 476px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.name4{
+/* Михайло Єрмаков */
+
+
+position: absolute;
+width: 145px;
+height: 19px;
+left: 1170px;
+top: 476px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.class1{
+/* Product Designer */
+
+
+position: absolute;
+width: 130px;
+height: 19px;
+left: 285px;
+top: 505px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.class2{
+/* Frontend Developer */
+
+
+position: absolute;
+width: 147px;
+height: 19px;
+left: 577px;
+top: 505px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.class3{
+/* Marketing */
+
+
+position: absolute;
+width: 76px;
+height: 19px;
+left: 912px;
+top: 505px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.class4{
+/* UI Designer */
+
+
+position: absolute;
+width: 87px;
+height: 19px;
+left: 1207px;
+top: 505px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
