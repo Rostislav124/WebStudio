@@ -37,7 +37,7 @@ body {
 }
 
 .header-web {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .heager-link {
@@ -197,7 +197,7 @@ body {
 }
 
 .footer-web {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .footer-address {
@@ -208,6 +208,7 @@ body {
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
+    font-style: normal;
 
 }
 

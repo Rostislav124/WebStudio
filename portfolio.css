@@ -37,7 +37,7 @@ img {
 }
 
 .header-web {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .heager-link {
@@ -131,7 +131,7 @@ button {
 }
 
 .footer-web {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .footer-address {
@@ -142,6 +142,7 @@ button {
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
+    font-style: normal;
 
 }
 
@@ -175,3 +176,4 @@ footer {
 
     background: #2F303A;
 }
+
