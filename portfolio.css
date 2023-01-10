@@ -24,7 +24,7 @@ img {
 }
 
 /* header */
-.header-logo {
+.header__logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -36,11 +36,11 @@ img {
     color: #2196F3;
 }
 
-.header-web {
+.header__web {
     color: #FFFFFF;
 }
 
-.heager-link {
+.heager__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -50,11 +50,11 @@ img {
 
 }
 
-.heager-link:hover {
+.heager__link:hover {
     color: #2196F3;
 }
 
-.header-contact-link {
+.header__contact-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -64,7 +64,7 @@ img {
 
 }
 
-.header-contact-link:hover {
+.header__contact-link:hover {
     color: #2196F3;
 }
 
@@ -75,7 +75,7 @@ button {
 
 }
 
-.button-style:hover {
+.button__style:hover {
     background: #2196F3;
     /* shadow-middle */
     color: white;
@@ -83,7 +83,7 @@ button {
     border-radius: 4px;
 }
 
-.button-style {
+.button__style {
 
     font-weight: 500;
     font-size: 16px;
@@ -96,7 +96,7 @@ button {
     color: #212121;
 }
 
-.posters-name {
+.posters__name {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -107,7 +107,7 @@ button {
 
 }
 
-.posters-text {
+.posters__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -118,7 +118,7 @@ button {
 
 }
 
-.footer-logo {
+.footer__logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -130,11 +130,11 @@ button {
     color: #2196F3;
 }
 
-.footer-web {
+.footer__web {
     color: #FFFFFF;
 }
 
-.footer-address {
+.footer__address {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -146,7 +146,7 @@ button {
 
 }
 
-.footer-link {
+.footer__link {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -157,7 +157,7 @@ button {
 
 }
 
-.footer-title {
+.footer__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;

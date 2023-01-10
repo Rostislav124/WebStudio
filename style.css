@@ -24,7 +24,7 @@ body {
 }
 
 /* header */
-.header-logo {
+.header__logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -36,11 +36,11 @@ body {
     color: #2196F3;
 }
 
-.header-web {
+.header__web {
     color: #FFFFFF;
 }
 
-.heager-link {
+.heager__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -50,11 +50,11 @@ body {
 
 }
 
-.heager-link:hover {
+.heager__link:hover {
     color: #2196F3;
 }
 
-.header-contact-link {
+.header__contact-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -64,11 +64,11 @@ body {
 
 }
 
-.header-contact-link:hover {
+.header__contact--link:hover {
     color: #2196F3;
 }
 
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -81,7 +81,7 @@ body {
 
 }
 
-.hero-button {
+.hero__button {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -99,7 +99,7 @@ body {
 
 }
 
-.features-name {
+.features__name {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -109,7 +109,7 @@ body {
     color: #212121;
 }
 
-.features-text {
+.features__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -120,7 +120,7 @@ body {
     color: #757575;
 }
 
-.occupation-title {
+.occupation__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -131,7 +131,7 @@ body {
 
 }
 
-.workers-title {
+.workers__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -142,14 +142,14 @@ body {
 
 }
 
-.workers-photo {
+.workers__photo {
     width: 270px;
     height: 260px;
 
     border-radius: 0px;
 }
 
-.workers-forename {
+.workers__forename {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -161,7 +161,7 @@ body {
 
 }
 
-.workers-position {
+.workers__position {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -173,7 +173,7 @@ body {
 
 }
 
-.almosttheend-title {
+.almosttheend__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -184,7 +184,7 @@ body {
 
 }
 
-.footer-logo {
+.footer__logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -196,11 +196,11 @@ body {
     color: #2196F3;
 }
 
-.footer-web {
+.footer__web {
     color: #FFFFFF;
 }
 
-.footer-address {
+.footer__address {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -212,7 +212,7 @@ body {
 
 }
 
-.footer-link {
+.footer__link {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -223,7 +223,7 @@ body {
 
 }
 
-.footer-title {
+.footer__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;

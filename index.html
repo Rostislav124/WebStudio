@@ -18,113 +18,183 @@
 
 <body>
     <header class="header">
-        <nav class="header-nav">
-            <a href="./index.html" class="header-logo" lang="en">Web<span class="header-web">Studio</span></a>
-            <ul class="header-pages">
-                <li class="header-page">
-                    <a href="./index.html" class="heager-link">Студія</a>
+        <nav class="header__nav">
+            <a href="./index.html" class="header__logo" lang="en">Web<span class="header__web">Studio</span></a>
+            <ul class="header__pages">
+                <li class="header__page">
+                    <a href="./index.html" class="heager__link">Студія</a>
                 </li>
-                <li class="header-page">
-                    <a href="./portfolio.html" class="heager-link">Портфоліо</a>
+                <li class="header__page">
+                    <a href="./portfolio.html" class="heager__link">Портфоліо</a>
                 </li>
-                <li class="header-page">
-                    <a href="#" class="heager-link">Контакти</a>
+                <li class="header__page">
+                    <a href="#" class="heager__link">Контакти</a>
                 </li>
             </ul>
         </nav>
-        <ul class="header-contacts">
-            <li class="header-contact">
+        <ul class="header__contacts">
+            <li class="header__contact">
                 <svg class="header-icon" width="16px" height="12px">
                     <use href=""></use>
                 </svg>
-                <a class="header-contact-link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+                <a class="header__contact-link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
             </li>
-            <li class="header-contact">
-                <svg class="header-icon" width="16px" height="12px">
+            <li class="header__contact">
+                <svg class="header__icon" width="16px" height="12px">
                     <use href=""></use>
                 </svg>
-                <a class="header-contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header__contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
     <main>
         <!-- Секція герой -->
         <section class="hero">
-            <h1 class="hero-title"> Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-button" type="button">
+            <h1 class="hero__title"> Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero__button" type="button">
                 Замовити послугу
             </button>
         </section>
         <!-- Секція переваги -->
         <section class="features">
-            <h2 hidden class="features-title">Наші переваги</h2>
-            <ul class="features-list">
-                <li class="features-item">
-                    <img class="features-image" src="./img/antena.jpg" alt="Антена">
-                    <h3 class="features-name">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+            <h2 hidden class="features__title">Наші переваги</h2>
+            <ul class="features__list">
+                <li class="features__item">
+                    <img class="features__image" src="./img/antena.jpg" alt="Антена">
+                    <h3 class="features__name">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="features__text">Ідейні міркування, і навіть початок повсякденної роботи з формування
                         позиції.</p>
                 </li>
-                <li class="features-item">
+                <li class="features__item">
                     <img src="./img/clock 1.svg" alt="clock">
-                    <h3 class="features-name">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                    <h3 class="features__name">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="features__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                     </p>
                 </li>
-                <li class="features-item">
+                <li class="features__item">
                     <img src="./img/diagram 1.svg" alt="diagram">
-                    <h3 class="features-name">ПЛАНУВАННЯ</h3>
-                    <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="features__name">ПЛАНУВАННЯ</h3>
+                    <p class="features__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li class="features-item">
+                <li class="features__item">
                     <img src="./img/astronaut 1.svg" alt="astronaut">
-                    <h3 class="features-name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                    <h3 class="features__name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="features__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                     </p>
                 </li>
             </ul>
         </section>
         <!-- Секція чим ми займаємося -->
         <section class="occupation">
-            <h2 class="occupation-title">Чим ми займаємося</h2>
-            <ul class="occupation-list">
+            <h2 class="occupation__title">Чим ми займаємося</h2>
+            <ul class="occupation__list">
                 <li class="occupation-item">
                     <img src="./img/computer.jpg" alt="Компютерні рішення">
                 </li>
-                <li class="occupation-item">
+                <li class="occupation__item">
                     <img src="./img/phone.jpg" alt="Планшетні рішення">
                 </li>
-                <li class="occupation-item">
+                <li class="occupation__item">
                     <img src="./img/tablet.jpg" alt="Дизайнерські рішення">
                 </li>
             </ul>
         </section>
         <!-- Секція команда -->
         <section class="workers">
-            <h2 class="workers-title">Наша команда</h2>
-            <ul class="workers-list">
-                <li class="workers-item">
-                    <img class="workers-photo" src="./img/worker1.jpg" alt="">
-                    <h3 class="workers-forename">Ігор Дем’яненко</h3>
-                    <p class="workers-position">Product Designer</p>
-                    <ul class="workers-networks">
-                        <li class="workers-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+            <h2 class="workers__title">Наша команда</h2>
+            <ul class="workers__list">
+                <li class="workers__item">
+                    <img class="workers__photo" src="./img/worker1.jpg" alt="">
+                    <h3 class="workers__forename">Ігор Дем’яненко</h3>
+                    <p class="workers__position">Product Designer</p>
+                    <ul class="workers__networks">
+                        <li class="workers__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>"
                                 </svg>
                             </a>
                         </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="workers__item">
+                    <img class="workers__photo" src="./img/worker2.jpg" alt="">
+                    <h3 class="workers__forename">Ольга Репіна</h3>
+                    <p class="workers__position">Frontend Developer</p>
+                    <ul class="workers__networks">
+                        <li class="workers__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>"
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="workers__item">
+                    <img class="workers__photo" src="./img/worker3.jpg" alt="">
+                    <h3 class="workers__forename">Микола Тарасов</h3>
+                    <p class="workers__position">Marketing</p>
+                    <ul class="workers__networks">
+                        <li class="workers__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>"
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
+                                    <use href=""></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>
                                 </svg>
                             </a>
@@ -138,105 +208,35 @@
                         </li>
                     </ul>
                 </li>
-                <li class="workers-item">
-                    <img class="workers-photo" src="./img/worker2.jpg" alt="">
-                    <h3 class="workers-forename">Ольга Репіна</h3>
-                    <p class="workers-position">Frontend Developer</p>
-                    <ul class="workers-networks">
-                        <li class="workers-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+                <li class="workers__item">
+                    <img class="workers__photo" src="./img/worker4.jpg" alt="">
+                    <h3 class="workers__forename">Михайло Єрмаков</h3>
+                    <p class="workers__position">UI Designer</p>
+                    <ul class="workers__networks">
+                        <li class="workers__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>"
                                 </svg>
                             </a>
                         </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="workers-item">
-                    <img class="workers-photo" src="./img/worker3.jpg" alt="">
-                    <h3 class="workers-forename">Микола Тарасов</h3>
-                    <p class="workers-position">Marketing</p>
-                    <ul class="workers-networks">
-                        <li class="workers-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>"
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="workers-item">
-                    <img class="workers-photo" src="./img/worker4.jpg" alt="">
-                    <h3 class="workers-forename">Михайло Єрмаков</h3>
-                    <p class="workers-position">UI Designer</p>
-                    <ul class="workers-networks">
-                        <li class="workers-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>"
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="worker-network">
-                            <a class="workers-link" href="#">
-                                <svg class="workers-icon">
+                        <li class="worker__network">
+                            <a class="workers__link" href="#">
+                                <svg class="workers__icon">
                                     <use href=""></use>
                                 </svg>
                             </a>
@@ -247,46 +247,46 @@
         </section>
         <!-- Постійні клієнти -->
         <section class="almosttheend">
-            <h2 class="almosttheend-title">Постійні клієнти</h2>
-            <ul class="almosttheend-list">
-                <li class="almosttheend-item">
-                    <a class="almosttheend-link" href="">
-                        <svg class="almosttheend-icon">
+            <h2 class="almosttheend__title">Постійні клієнти</h2>
+            <ul class="almosttheend__list">
+                <li class="almosttheend__item">
+                    <a class="almosttheend__link" href="">
+                        <svg class="almosttheend__icon">
                             <use href=""></use>
                         </svg>
                     </a>
                 </li>
-                <li class="almosttheend-item">
-                    <a class="almosttheend-link" href="">
-                        <svg class="almosttheend-icon">
+                <li class="almosttheend__item">
+                    <a class="almosttheend__link" href="">
+                        <svg class="almosttheend__icon">
                             <use href=""></use>
                         </svg>
                     </a>
                 </li>
-                <li class="almosttheend-item">
-                    <a class="almosttheend-link" href="">
-                        <svg class="almosttheend-icon">
+                <li class="almosttheend__item">
+                    <a class="almosttheend__link" href="">
+                        <svg class="almosttheend__icon">
                             <use href=""></use>
                         </svg>
                     </a>
                 </li>
-                <li class="almosttheend-item">
-                    <a class="almosttheend-link" href="">
-                        <svg class="almosttheend-icon">
+                <li class="almosttheend__item">
+                    <a class="almosttheend__link" href="">
+                        <svg class="almosttheend__icon">
                             <use href=""></use>
                         </svg>
                     </a>
                 </li>
-                <li class="almosttheend-item">
-                    <a class="almosttheend-link" href="">
-                        <svg class="almosttheend-icon">
+                <li class="almosttheend__item">
+                    <a class="almosttheend__link" href="">
+                        <svg class="almosttheend__icon">
                             <use href=""></use>
                         </svg>
                     </a>
                 </li>
-                <li class="almosttheend-item">
-                    <a class="almosttheend-link" href="">
-                        <svg class="almosttheend-icon">
+                <li class="almosttheend__item">
+                    <a class="almosttheend__link" href="">
+                        <svg class="almosttheend__icon">
                             <use href=""></use>
                         </svg>
                     </a>
@@ -295,42 +295,42 @@
         </section>
     </main>
     <footer class="footer">
-        <a href="./index.html" class="footer-logo" lang="en">Web<span class="footer-web">Studio</span></a>
-        <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
-        <ul class="footer-list">
-            <li class="footer-item">
-                <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+        <a href="./index.html" class="footer__logo" lang="en">Web<span class="footer__web">Studio</span></a>
+        <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a class="footer__link" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li class="footer-item">
-                <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="footer__item">
+                <a class="footer__link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
-        <h2 class="footer-title">Приєднуйтесь</h2>
+        <h2 class="footer__title">Приєднуйтесь</h2>
         <ul class="networks">
-            <li class="networks-item">
-                <a class="networks-link" href="#">
-                    <svg class="networks-icon">
+            <li class="networks__item">
+                <a class="networks__link" href="#">
+                    <svg class="networks__icon">
                         <use href=""></use>"
                     </svg>
                 </a>
             </li>
-            <li class="networks-item">
-                <a class="networks-link" href="#">
-                    <svg class="networks-icon">
+            <li class="networks__item">
+                <a class="networks__link" href="#">
+                    <svg class="networks__icon">
                         <use href=""></use>"
                     </svg>
                 </a>
             </li>
-            <li class="networks-item">
-                <a class="networks-link" href="#">
-                    <svg class="networks-icon">
+            <li class="networks__item">
+                <a class="networks__link" href="#">
+                    <svg class="networks__icon">
                         <use href=""></use>"
                     </svg>
                 </a>
             </li>
-            <li class="networks-item">
-                <a class="networks-link" href="#">
-                    <svg class="networks-icon">
+            <li class="networks__item">
+                <a class="networks__link" href="#">
+                    <svg class="networks__icon">
                         <use href=""></use>"
                     </svg>
                 </a>
