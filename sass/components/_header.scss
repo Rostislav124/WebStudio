@@ -1,0 +1,54 @@
+header{
+    height: 80px;
+}
+
+.header__logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 0.03em;
+    padding-top: 65px;
+
+    color: #2196F3;
+}
+
+.header__web {
+    color: #000000;
+}
+
+/* .header__pages{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+} */
+
+.heager__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+
+}
+
+.heager__link:hover {
+    color: #2196F3;
+}
+
+.header__contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+
+}
+
+.header__contact-link:hover {
+    color: #2196F3;
+}
