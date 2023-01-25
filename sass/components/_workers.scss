@@ -1,75 +1,77 @@
 .workers {
-    background: #F5F4FA;
+    background: $seldom-text-color;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        padding-top: 94px;
+        color: $main-text-color;
+    
+    }
+    
+    
+    &__list {
+        @extend %flex;
+        flex-direction: row;
+    
+        height: 708px;
+    
+    
+    }
+    
+    &__item {
+        width: 270px;
+        height: 428px;
+        margin-right: 30px;
+        margin-top: 50px;
+    
+    
+        background: $secondary-text-color;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    
+    
+    &__photo {
+        width: 270px;
+        height: 260px;
+    
+        border-radius: 0px;
+    }
+    
+    &__forename {
+        font-weight: 500;
+        @extend %text;
+    
+        /* text-align: center; */
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-top: 30px;
+    
+        color: $main-text-color;
+    
+    }
+    
+    &__position {
+        font-weight: 400;
+        @extend %text;
+    
+        /* text-align: center; */
+        letter-spacing: 0.03em;
+        text-align: center;
+    
+        color: $dark-text-color;
+        margin-top: 15px;
+    
+    }
 }
 
-.workers__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding-top: 94px;
-    color: #212121;
-
-}
-
-
-.workers__list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 708px;
-
-
-}
-
-.workers__item {
-    width: 270px;
-    height: 428px;
-    margin-right: 30px;
-    margin-top: 50px;
-
-
-    background: #FFFFFF;
-    /* material shadow v1 */
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-
-.workers__photo {
-    width: 270px;
-    height: 260px;
-
-    border-radius: 0px;
-}
-
-.workers__forename {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-
-    /* text-align: center; */
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-top: 30px;
-
-    color: #212121;
-
-}
-
-.workers__position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    /* text-align: center; */
-    letter-spacing: 0.03em;
-    text-align: center;
-
-    color: #757575;
-    margin-top: 15px;
-
-}

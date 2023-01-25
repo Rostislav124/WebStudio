@@ -1,27 +1,35 @@
 button {
-    background: #F5F4FA;
+    background: $seldom-text-color;
     border-radius: 4px;
     border: none;
 
+    &__style {
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: $main-text-color;
+    
+        &:hover {
+            background: $other-text-color;
+            /* shadow-middle */
+            color: $secondary-text-color;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+        }
+        
+    }
+    
+    &__item{
+        @extend %flex;
+        flex-direction: row;
+    }
+
 }
 
-.button__style:hover {
-    background: #2196F3;
-    /* shadow-middle */
-    color: white;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
 
-.button__style {
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
-}

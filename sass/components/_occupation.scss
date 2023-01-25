@@ -1,24 +1,30 @@
-.occupation__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-top: 118px;
+.occupation{
+    padding-bottom: 94px;
 
-    color: #212121;
-
-}
-
-.occupation__list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.occupation__list li {
-    margin-right: 30px;
-    margin-bottom: 94px;
-    margin-top: 50px;
-
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-top: 118px;
+    
+        color: $main-text-color;
+    
+    }
+    
+    &__list {
+        @extend %flex;
+        margin-top: 50px;
+    
+        &li {
+            margin-right: 30px;
+            outline: solid red;
+        
+        }
+        
+        &li:last-child{
+            margin-right: 0;
+        }
+    }
 }
