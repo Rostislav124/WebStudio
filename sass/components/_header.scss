@@ -1,5 +1,13 @@
-header{
+.header{
     height: 80px;
+
+    & .container{
+        display: flex;
+    }
+
+    &__nav{
+        display: flex;
+    }
 
     &__logo {
         font-family: 'Raleway';
@@ -9,7 +17,6 @@ header{
         line-height: 31px;
     
         letter-spacing: 0.03em;
-        padding-top: 65px;
     
         color: $other-text-color;
     }
@@ -18,11 +25,10 @@ header{
         color: $black-text-color;
     }
     
-    //  .header__pages{
-    //     display: flex;
-    //     justify-content: center;
-    //     margin-top: -20px;
-    // } 
+     &__pages{
+        display: flex;
+
+    } 
     
     &__link {
         font-weight: 500;
@@ -36,6 +42,10 @@ header{
             color: $other-text-color;
         }
     
+    }
+
+    &__contacts{
+        display: flex;
     }
     
     &__contact-link {

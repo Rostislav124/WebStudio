@@ -1,6 +1,8 @@
 .posters{
     @extend %flex;
 
+    gap: 30px;
+
     &__name {
         font-weight: 700;
         font-size: 18px;
@@ -22,6 +24,11 @@
         color: $dark-text-color;
     
     }    
+
+    &__item{
+        width: 370px;
+        
+    }
     
 }
 

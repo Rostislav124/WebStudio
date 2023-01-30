@@ -17,13 +17,13 @@
         @extend %flex;
         margin-top: 50px;
     
-        &li {
+        & li {
             margin-right: 30px;
             outline: solid red;
         
         }
         
-        &li:last-child{
+        & li:last-child{
             margin-right: 0;
         }
     }
