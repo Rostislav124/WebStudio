@@ -4,6 +4,7 @@
     top: 2676px;
 
     background: $footer-bg;
+    padding-top: 60px;
 
     &__logo {
         font-family: 'Raleway';
@@ -15,6 +16,7 @@
         letter-spacing: 0.03em;
     
         color: $other-text-color;
+
     }
     
     &__web {
@@ -41,8 +43,20 @@
         letter-spacing: 0.03em;
     
         color: $footer-link;
-    
+
     }
+
+    .networks__link{
+        fill: #FFFFFF;
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
     
     &__title {
         font-weight: 700;
@@ -54,5 +68,31 @@
         color: $secondary-text-color;
     
     }
+    & .container{
+        display: flex;
+    }
+
+
+    &__networks{
+        @extend %flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .networks__item{
+        margin-right: 20px;
+
+    }
+
+    .networks__link:hover{
+        background-color: #2196F3;
+        fill: #ffff;
+    }
+
+    .networks__icon{
+        width: 20px;
+        height: 20px;
+    }
+    
 
 }

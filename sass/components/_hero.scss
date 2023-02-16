@@ -1,9 +1,25 @@
 .hero {
-    background-image: url(../../img/hero.jpg);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @media screen and (min-width:480px) {
+        background-image: url(../../img/hero.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    @media screen and (min-width:768px) {
+        background-image: url(../../img/hero.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    @media screen and (min-width:1200px) {
+        background-image: url(../../img/hero.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
     &__title {
         display: block;

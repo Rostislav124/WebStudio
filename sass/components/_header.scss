@@ -1,12 +1,14 @@
 .header{
     height: 80px;
+    padding-top: 24px;
 
-    & .container{
+    .container{
         display: flex;
     }
 
     &__nav{
         display: flex;
+
     }
 
     &__logo {
@@ -19,6 +21,8 @@
         letter-spacing: 0.03em;
     
         color: $other-text-color;
+        margin-left: 215px;
+        margin-right: 93px;
     }
     
     &__web {
@@ -27,6 +31,15 @@
     
      &__pages{
         display: flex;
+
+        & li{
+            margin-right: 53px;
+            margin-top: 5px;
+        }
+
+        & li:last-child{
+            margin-right: 530px;
+        }
 
     } 
     
@@ -37,6 +50,7 @@
         letter-spacing: 0.02em;
     
         color: $main-text-color;
+        margin-right: 53px;
     
         &:hover {
             color: $other-text-color;
@@ -46,6 +60,12 @@
 
     &__contacts{
         display: flex;
+
+        & li{
+            margin-right: 30px;
+            margin-top: 5px;
+        }
+
     }
     
     &__contact-link {
@@ -60,6 +80,10 @@
             color: $other-text-color;
         }
     
+    }
+
+    &__icon{
+        fill: currentColor;
     }
 }
 
