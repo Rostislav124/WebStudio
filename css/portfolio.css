@@ -40,7 +40,6 @@ body {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  outline: solid red;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,21 +72,17 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196F3;
-  margin-left: 215px;
   margin-right: 93px;
 }
 .header__web {
   color: #000000;
 }
 .header__pages {
+  align-items: center;
   display: flex;
 }
 .header__pages li {
   margin-right: 53px;
-  margin-top: 5px;
-}
-.header__pages li:last-child {
-  margin-right: 530px;
 }
 .header__link {
   font-weight: 500;
@@ -102,16 +97,22 @@ body {
 }
 .header__contacts {
   display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 .header__contacts li {
   margin-right: 30px;
-  margin-top: 5px;
+}
+.header__contacts li:last-child {
+  margin-right: 0;
 }
 .header__contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 .header__contact-link:hover {
@@ -119,6 +120,7 @@ body {
 }
 .header__icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 button {

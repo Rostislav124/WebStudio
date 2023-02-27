@@ -21,7 +21,7 @@
         letter-spacing: 0.03em;
     
         color: $other-text-color;
-        margin-left: 215px;
+        // margin-left: 215px;
         margin-right: 93px;
     }
     
@@ -30,18 +30,18 @@
     }
     
      &__pages{
+        // @media screen and (min-width: 480) {
+        //     display: none;
+        // }
+        align-items: center;
+
         display: flex;
 
         & li{
             margin-right: 53px;
-            margin-top: 5px;
-        }
-
-        & li:last-child{
-            margin-right: 530px;
-        }
 
     } 
+}
     
     &__link {
         font-weight: 500;
@@ -60,10 +60,15 @@
 
     &__contacts{
         display: flex;
+        align-items: center;
+        margin-left: auto;
 
         & li{
             margin-right: 30px;
-            margin-top: 5px;
+        }
+
+        & li:last-child{
+            margin-right: 0;
         }
 
     }
@@ -73,6 +78,8 @@
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+        display: flex;
+        align-items: center;
     
         color: $dark-text-color;
     
@@ -84,9 +91,7 @@
 
     &__icon{
         fill: currentColor;
+        margin-right: 10px;
     }
 }
-
-
-
 
