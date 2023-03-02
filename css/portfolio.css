@@ -1,4 +1,4 @@
-.footer__networks, .posters, button__item {
+.footer__networks, .posters {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,6 +135,7 @@ button__style {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
+  margin-right: 8px;
   color: #212121;
 }
 button__style:hover {
@@ -144,8 +145,11 @@ button__style:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-button__item {
-  flex-direction: row;
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .posters {
