@@ -1,23 +1,23 @@
 .occupation{
+    padding-top: 94px;
     padding-bottom: 94px;
-    @media screen and (max-width: 1198px) {
-        display: none;
-    }
+    display: none;
 
     @media screen and (min-width: 1200px) {
-        
-    
+        display: block;
+    }
+
     &__title {
+        
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
-        margin-top: 118px;
     
         color: $main-text-color;
-    
     }
+   
     
     &__list {
         @extend %flex;
@@ -35,6 +35,6 @@
     }
 
 
-}
+
         
     }
