@@ -55,11 +55,55 @@
                     </a>
                 </li>
             </ul>
-            <button class="header__button" type="button">
+            <button class="header__button" data-open-menu type="button">
                 <svg class="header__menu">
                     <use href="./img/symbol-defs.svg#icon-menu"></use>
                 </svg>
             </button>
+            <div class="modal" data-overlay>
+                <button class="modal__button" data-close-menu type="button">
+                    <svg class="modal__menu">
+                        <use href="./img/symbol-defs.svg#icon-close-button-menu"></use>
+                    </svg>
+                </button>
+                <ul class="modal__pages">
+                    <li class="modal__page">
+                        <a href="./index.html" class="modal__link">Студія</a>
+                    </li>
+                    <li class="modal__page">
+                        <a href="./portfolio.html" class="modal__link">Портфоліо</a>
+                    </li>
+                    <li class="modal__page">
+                        <a href="#" class="modal__link">Контакти</a>
+                    </li>
+                </ul>
+                <ul class="modal__contacts">
+                    <li class="modal__contact">
+                        <a class="modal__contact-link" href="tel:+380961111111">
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                    <li class="modal__contact">
+                        <a class="modal__contact-link2" href="mailto:info@devstudio.com" lang="en">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal__websites">
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">Instagram</a>
+                    </li>
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">Twitter</a>
+                    </li>
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">Facebook</a>
+                    </li>
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -264,7 +308,7 @@
             </div>
         </section>
         <!-- Постійні клієнти -->
-        <!-- <section class="almosttheend">
+        <section class="almosttheend">
             <h2 class="almosttheend__title">Постійні клієнти</h2>
             <ul class="almosttheend__list">
                 <li class="almosttheend__item">
@@ -310,7 +354,7 @@
                     </a>
                 </li>
             </ul>
-        </section> -->
+        </section>
     </main>
     <!-- <footer class="footer">
         <div class="container">
@@ -361,6 +405,7 @@
             </div>
         </div>
     </footer> -->
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@
     }
 
     &__nav {
-            display: flex;
+        display: flex;
 
 
     }
@@ -39,7 +39,7 @@
 
         color: $other-text-color;
         // margin-left: 215px;
-            margin-right: 93px;
+        margin-right: 93px;
     }
 
     &__web {
@@ -55,11 +55,9 @@
             display: flex;
             align-items: center;
 
-            display: flex;
-    
             & li {
                 margin-right: 53px;
-    
+
             }
         }
 
@@ -72,7 +70,7 @@
         letter-spacing: 0.02em;
 
         color: $main-text-color;
-        margin-right: 53px;
+
 
         &:hover {
             color: $other-text-color;
@@ -81,7 +79,7 @@
     }
 
     &__contacts {
-          display: none;
+        display: none;
 
         @media screen and (min-width: 768px) {
             display: block;
@@ -138,7 +136,7 @@
 
     &__button {
         display: flex;
-        margin: auto;
+        margin-left: auto;
         width: 40px;
         height: 40px;
         background-color: #ffff;
@@ -150,9 +148,116 @@
         }
     }
 
-    &__menu{
+    &__menu {
 
         width: 40px;
-        height: 40px;   
-     }
+        height: 40px;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.modal {
+    position: fixed;
+    width: 480px;
+    height: 796px;
+    background-color: #ffff;
+    left: 0;
+    top: 0;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+
+
+    &__button {
+        display: flex;
+        margin-left: auto;
+        width: 40px;
+        height: 40px;
+        background-color: #ffff;
+
+    }
+
+    &__pages {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        gap: 32px;
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
+
+
+        color: $main-text-color;
+
+
+        &:hover {
+            color: $other-text-color;
+        }
+
+    }
+
+    &__contact-link {
+        margin-top: 302px;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+
+        color: $dark-text-color;
+
+        &:hover {
+            color: $other-text-color;
+        }
+
+    }
+
+    &__contact-link2 {
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+
+        color: $dark-text-color;
+
+        &:hover {
+            color: $other-text-color;
+        }
+
+    }
+
+    &__websites{
+        display: flex;
+        flex-direction: row;
+        margin-top: 64px;
+        justify-content: center;
+        gap: 20px;
+        
+        &:hover {
+            color: $other-text-color;
+        }
+
+    }
+
 }
