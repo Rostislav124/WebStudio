@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -48,85 +50,199 @@
                     </a>
                 </li>
             </ul>
-            <button class="header__button" data-open-menu  type="button">
+            <button class="header__button" data-open-menu type="button">
                 <svg class="header__menu">
                     <use href="./img/symbol-defs.svg#icon-menu"></use>
                 </svg>
             </button>
-            <div class="header__modal" data-overlay>
-                <button data-close-menu type="button"> munu</button>
+            <div class="modal" data-overlay>
+                <button class="modal__button" data-close-menu type="button">
+                    <svg width="40" height="40" class="modal__menu">
+                        <use href="./img/symbol-defs.svg#icon-close-button-menu"></use>
+                    </svg>
+                </button>
+                <ul class="modal__pages">
+                    <li class="modal__page">
+                        <a href="./index.html" class="modal__link">Студія</a>
+                    </li>
+                    <li class="modal__page">
+                        <a href="./portfolio.html" class="modal__link">Портфоліо</a>
+                    </li>
+                    <li class="modal__page">
+                        <a href="#" class="modal__link">Контакти</a>
+                    </li>
+                </ul>
+                <ul class="modal__contacts">
+                    <li class="modal__contact">
+                        <a class="modal__contact-link" href="tel:+380961111111">
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                    <li class="modal__contact">
+                        <a class="modal__contact-link2" href="mailto:info@devstudio.com" lang="en">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal__websites">
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">Instagram</a>
+                    </li>
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">Twitter</a>
+                    </li>
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">Facebook</a>
+                    </li>
+                    <li class="modal__website">
+                        <a class="modal__website__link" href="#">LinkedIn</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
     <main>
         <div class="container">
-        <ul class="button">
-            <li class="button__item">
-                <button class="button__style" type="button">Усе</button>
-            </li>
-            <li class="button__item">
-                <button class="button__style" type="button">Веб-сайти</button>
-            </li>
-            <li class="button__item">
-                <button class="button__style" type="button">Застосунки</button>
-            </li>
-            <li class="button__item">
-                <button class="button__style" type="button">Дизайн</button>
-            </li>
-            <li class="button__item">
-                <button class="button__style" type="button">Маркетинг</button>
-            </li>
-        </ul>
-        <ul class="posters">
-            <li class="posters__item">
-                <img src="./img/tehnobug.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Технокряк</h2>
-                <p class="posters__text">Веб-сайт</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/poster.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Постер New Orlean vs Golden Star</h2>
-                <p class="posters__text">Дизайн</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/restoran.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Ресторан Seafood</h2>
-                <p class="posters__text">Додаток</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/project prime.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Проєкт Prime</h2>
-                <p class="posters__text">Маркетинг</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/project boxes.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Проєкт Boxes</h2>
-                <p class="posters__text">Додаток</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/inspiration.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Inspiration has no Borders</h2>
-                <p class="posters__text">Веб-сайт</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/edition.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Видання Limited Edition</h2>
-                <p class="posters__text">Дизайн</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/project lab.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Проєкт LAB</h2>
-                <p class="posters__text">Маркетинг</p>
-            </li>
-            <li class="posters__item">
-                <img src="./img/Growing Business.jpg" alt="Постер" class="posters__photo">
-                <h2 class="posters__name">Growing Business</h2>
-                <p class="posters__text">Додаток</p>
-            </li>
-        </ul>
-    </div>
+            <ul class="button">
+                <li class="button__item">
+                    <button class="button__style" type="button">Усе</button>
+                </li>
+                <li class="button__item">
+                    <button class="button__style" type="button">Веб-сайти</button>
+                </li>
+                <li class="button__item">
+                    <button class="button__style" type="button">Застосунки</button>
+                </li>
+                <li class="button__item">
+                    <button class="button__style" type="button">Дизайн</button>
+                </li>
+                <li class="button__item">
+                    <button class="button__style" type="button">Маркетинг</button>
+                </li>
+            </ul>
+            <ul class="posters">
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/tehnobug-desktop@2x-min.jpg 1x, ./img/tehnobug-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/tehnobug-tablet@1x-min.jpg 1x, ./img/tehnobug-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/tehnobug-mobile@1x-min.jpg 1x, ./img/tehnobug-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/tehnobug-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Технокряк</h2>
+                    <p class="posters__text">Веб-сайт</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/poster-desktop@2x-min.jpg 1x, ./img/poster-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/poster-tablet@1x-min.jpg 1x, ./img/poster-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/poster-mobile@1x-min.jpg 1x, ./img/poster-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/poster-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Постер New Orlean vs Golden Star</h2>
+                    <p class="posters__text">Дизайн</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/restoran-desktop@2x-min.jpg 1x, ./img/restoran-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/restoran-tablet@1x-min.jpg 1x, ./img/restoran-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/restoran-mobile@1x-min.jpg 1x, ./img/restoran-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/restoran-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Ресторан Seafood</h2>
+                    <p class="posters__text">Додаток</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/prime-desktop@2x-min.jpg 1x, ./img/prime-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/prime-tablet@1x-min.jpg 1x, ./img/prime-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/prime-mobile@1x-min.jpg 1x, ./img/prime-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/prime-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Проєкт Prime</h2>
+                    <p class="posters__text">Маркетинг</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/boxes-desktop@1x.jpg 1x, ./img/boxes-desktop@2x.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/boxes-tablet@1x.jpg 1x, ./img/boxes-tablet@2x.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/boxes-mobile@1x.jpg 1x, ./img/boxes-mobile@2x.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/boxes-mobile@1x.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Проєкт Boxes</h2>
+                    <p class="posters__text">Додаток</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source
+                            srcset="./img/inspiration-desktop@2x-min.jpg 1x, ./img/inspiration-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/inspiration-tablet@1x-min.jpg 1x, ./img/inspiration-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/inspiration-mobile@1x-min.jpg 1x, ./img/inspiration-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/inspiration-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Inspiration has no Borders</h2>
+                    <p class="posters__text">Веб-сайт</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/edition-desktop@2x-min.jpg 1x, ./img/edition-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/edition-tablet@1x-min.jpg 1x, ./img/edition-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/edition-mobile@1x-min.jpg 1x, ./img/edition-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/edition-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Видання Limited Edition</h2>
+                    <p class="posters__text">Дизайн</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/lab-desktop@2x-min.jpg 1x, ./img/lab-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/lab-tablet@1x-min.jpg 1x, ./img/lab-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/lab-mobile@1x-min.jpg 1x, ./img/lab-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/lab-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Проєкт LAB</h2>
+                    <p class="posters__text">Маркетинг</p>
+                </li>
+                <li class="posters__item">
+                    <picture>
+                        <source srcset="./img/business-desktop@2x-min.jpg 1x, ./img/business-desktop@2x-min.jpg 2x"
+                            media="(man-width: 1200px)">
+                        <source srcset="./img/business-tablet@1x-min.jpg 1x, ./img/business-tablet@2x-min.jpg 2x"
+                            media="(man-width: 768px)">
+                        <source srcset="./img/business-mobile@1x-min.jpg 1x, ./img/business-mobile@2x-min.jpg 2x"
+                            media="(max-width: 767px)">
+                        <img src="./img/business-mobile@1x-min.jpg" alt="Постер" class="posters__photo">
+                    </picture>
+                    <h2 class="posters__name">Growing Business</h2>
+                    <p class="posters__text">Додаток</p>
+                </li>
+            </ul>
+        </div>
     </main>
-<footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="container1">
                 <a href="./index.html" class="footer__logo" lang="en">Web<span class="footer__web">Studio</span></a>
@@ -142,38 +258,42 @@
             </div>
             <div class="container2">
                 <h2 class="footer__title">Приєднуйтесь</h2>
-                <ul class="footer__networks">
+                <ul class="networks">
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-instagram"></use>"
+                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-twitter"></use>"
+                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-facebook"></use>"
+                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>"
+                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
+            <div>
+                <h2 class="subscribe">Підпишіться на розсилку</h2>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>

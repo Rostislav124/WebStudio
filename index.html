@@ -62,7 +62,7 @@
             </button>
             <div class="modal" data-overlay>
                 <button class="modal__button" data-close-menu type="button">
-                    <svg class="modal__menu">
+                    <svg width="40" height="40" class="modal__menu">
                         <use href="./img/symbol-defs.svg#icon-close-button-menu"></use>
                     </svg>
                 </button>
@@ -165,34 +165,39 @@
                 <h2 class="workers__title">Наша команда</h2>
                 <ul class="workers__list">
                     <li class="workers__item">
-                        <img class="workers__photo" src="./img/worker1.jpg" alt="">
+                        <picture>
+                            <source srcset="./img/worker1-desktop@1x-min.jpg 1x, ./img/worker1-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                            <source srcset="./img/worker1-tablet@1x-min.jpg 1x, ./img/worker1-tablet@2x-min.jpg 2x" media="(man-width: 768px)">
+                            <source srcset="./img/worker1-mobile@1x-min.jpg 1x, ./img/worker1-mobile@2x-min.jpg 2x" media="(max-width: 767px)">
+                        <img class="workers__photo" src="./img/worker1-mobile@1x-min.jpg" alt="Співробітник чоловік в окулярах">
+                    </picture>
                         <h3 class="workers__forename">Ігор Дем’яненко</h3>
                         <p class="workers__position">Product Designer</p>
-                        <ul class="workers__networks">
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                        <ul class="networks">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -200,34 +205,39 @@
                         </ul>
                     </li>
                     <li class="workers__item">
-                        <img class="workers__photo" src="./img/worker2.jpg" alt="">
+                        <picture>
+                            <source srcset="./img/worker2-desktop@1x-min.jpg 1x, ./img/worker2-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                            <source srcset="./img/worker2-tablet@1x-min.jpg 1x, ./img/worker2-tablet@2x-min.jpg 2x" media="(man-width: 768px)">
+                            <source srcset="./img/worker2-mobile@1x-min.jpg 1x, ./img/worker2-mobile@2x-min.jpg 2x" media="(max-width: 767px)">
+                            <img class="workers__photo" src="./img/worker2-mobile@1x-min.jpg" alt="Співробітниця жінка в окулярах">
+                        </picture>
                         <h3 class="workers__forename">Ольга Репіна</h3>
                         <p class="workers__position">Frontend Developer</p>
-                        <ul class="workers__networks">
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                        <ul class="networks">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -235,34 +245,39 @@
                         </ul>
                     </li>
                     <li class="workers__item">
-                        <img class="workers__photo" src="./img/worker3.jpg" alt="">
+                        <picture>
+                        <source srcset="./img/worker3-desktop@1x-min.jpg 1x, ./img/worker3-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                        <source srcset="./img/worker3-tablet@1x-min.jpg 1x, ./img/worker3-tablet@2x-min.jpg 2x" media="(man-width: 768px)">
+                        <source srcset="./img/worker3-mobile@1x-min.jpg 1x, ./img/worker3-mobile@2x-min.jpg 2x" media="(max-width: 767px)">
+                        <img class="workers__photo" src="./img/worker3-mobile@1x-min.jpg" alt="Співробітник чоловік без окулярів">
+                    </picture>
                         <h3 class="workers__forename">Микола Тарасов</h3>
                         <p class="workers__position">Marketing</p>
-                        <ul class="workers__networks">
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                        <ul class="networks">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -270,34 +285,39 @@
                         </ul>
                     </li>
                     <li class="workers__item">
-                        <img class="workers__photo" src="./img/worker4.jpg" alt="">
+                        <picture>
+                        <source srcset="./img/worker4-desktop@1x-min.jpg 1x, ./img/worker4-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                        <source srcset="./img/worker4-tablet@1x-min.jpg 1x, ./img/worker4-tablet@2x-min.jpg 2x" media="(man-width: 768px)">
+                        <source srcset="./img/worker4-mobile@1x-min.jpg 1x, ./img/worker4-mobile@2x-min.jpg 2x" media="(max-width: 767px)">
+                        <img class="workers__photo" src="./img/worker4-mobile@1x-min.jpg" alt="Співробітник чоловік в окулярах">
+                    </picture>
                         <h3 class="workers__forename">Михайло Єрмаков</h3>
                         <p class="workers__position">UI Designer</p>
-                        <ul class="workers__networks">
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                        <ul class="networks">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="workers__network">
-                                <a class="workers__link" href="#">
-                                    <svg class="workers__icon">
+                            <li class="networks__item">
+                                <a class="networks__link" href="#">
+                                    <svg class="networks__icon">
                                         <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -356,7 +376,7 @@
             </ul>
         </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="container1">
                 <a href="./index.html" class="footer__logo" lang="en">Web<span class="footer__web">Studio</span></a>
@@ -372,39 +392,42 @@
             </div>
             <div class="container2">
                 <h2 class="footer__title">Приєднуйтесь</h2>
-                <ul class="footer__networks">
+                <ul class="networks">
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-instagram"></use>"
+                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-twitter"></use>"
+                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-facebook"></use>"
+                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="networks__item">
                         <a class="networks__link" href="#">
                             <svg class="networks__icon" width="20px" height="20px">
-                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>"
+                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
+            <div>
+                <h2 class="subscribe">Підпишіться на розсилку</h2>
+            </div>
         </div>
-    </footer> -->
+    </footer>
     <script src="./js/menu.js"></script>
 </body>
 
