@@ -12,82 +12,111 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
-    
+
         letter-spacing: 0.03em;
-    
+
         color: $other-text-color;
 
     }
-    
+
     &__web {
         color: $secondary-text-color;
     }
-    
+
     &__address {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-    
+
         letter-spacing: 0.03em;
-    
+
         color: $secondary-text-color;
         font-style: normal;
-    
+
     }
-    
+
     &__link {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-    
+
         letter-spacing: 0.03em;
-    
+
         color: $footer-link;
 
     }
 
 
 
-    
+
     &__title {
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
+
         color: $secondary-text-color;
-    
+
     }
-    & .container{
+
+    & .container {
         display: flex;
     }
 
 
-    &__networks{
+    &__networks {
         @extend %flex;
         flex-direction: row;
         margin-top: 20px;
     }
 
-    .networks__item{
-        margin-right: 20px;
 
-    }
-
-    .networks__link:hover{
+    .networks__link:hover {
         background-color: #2196F3;
         fill: #ffff;
     }
 
-    .networks__icon{
+    .networks__icon {
         width: 20px;
         height: 20px;
     }
-    
+
 
 }
 
-.container2{
-    margin-left: 70px;
+.container2 {
+    padding-left: 70px;
+}
+
+.subscribe {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contsiner3 {
+    padding-left: 93px;
+
+}
+
+.input {
+    border: none;
+    border-radius: none;
+}
+
+.buton {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+
+    &__svg {
+        color: #FFFFFF;
+    }
 }

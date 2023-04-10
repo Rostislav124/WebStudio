@@ -167,7 +167,7 @@
 }
 
 .modal {
-    padding-top: 48px ;
+    padding-top: 48px;
     position: fixed;
     width: 480px;
     height: 796px;
@@ -253,13 +253,13 @@
 
     }
 
-    &__websites{
+    &__websites {
         display: flex;
         flex-direction: row;
         margin-top: 64px;
         justify-content: center;
         gap: 20px;
-        
+
         &:hover {
             color: $other-text-color;
         }

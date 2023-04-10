@@ -148,13 +148,22 @@
                 <h2 class="occupation__title">Чим ми займаємося</h2>
                 <ul class="occupation__list">
                     <li class="occupation-item">
-                        <img src="./img/computer.jpg" alt="Компютерні рішення">
+                        <picture>
+                            <source srcset="./img/computer-desktop@1x-min.jpg 1x, ./img/computer-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                            <img src="./img/computer-desktop@1x-min.jpg" alt="Компютерні рішення">
+                        </picture>
                     </li>
                     <li class="occupation__item">
-                        <img src="./img/phone.jpg" alt="Планшетні рішення">
+                        <picture>
+                            <source srcset="./img/phone-desktop@1x-min.jpg 1x, ./img/phone-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                            <img src="./img/phone-desktop@1x-min.jpg" alt="Планшетні рішення">
+                        </picture>
                     </li>
                     <li class="occupation__item">
-                        <img src="./img/tablet.jpg" alt="Дизайнерські рішення">
+                        <picture>
+                            <source srcset="./img/tablet-desktop@1x-min.jpg 1x, ./img/tablet-desktop@2x-min.jpg 2x" media="(man-width: 1200px)">
+                            <img src="./img/tablet-desktop@1x-min.jpg" alt="Дизайнерські рішення">
+                        </picture>
                     </li>
                 </ul>
             </div>
@@ -423,8 +432,14 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="contsiner3">
                 <h2 class="subscribe">Підпишіться на розсилку</h2>
+                <input class="input" type="email" name="" id="" placeholder="E-mail">
+                <button class="buton" type="submit">
+                    Підписатися
+                    <svg class="buton__svg" width="24px" height="24px">
+                        <use href="./img/symbol-defs.svg#icon-send"></use>
+                    </svg> </button>
             </div>
         </div>
     </footer>

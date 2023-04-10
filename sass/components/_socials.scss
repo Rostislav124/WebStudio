@@ -1,11 +1,11 @@
-.networks{
+.networks {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 16px;
 
-    &__link{
-        fill: #FFFFFF;
+    &__link {
+        fill: #AFB1B8;
         height: 44px;
         width: 44px;
         border-radius: 50%;
@@ -16,12 +16,13 @@
 
     }
 
-    &__link:hover{
+    &__link:hover {
         background-color: #2196F3;
         fill: #ffff;
 
     }
-    &__icon{
+
+    &__icon {
         width: 20px;
         height: 20px;
 

@@ -1,4 +1,4 @@
-.occupation{
+.occupation {
     padding-top: 94px;
     padding-bottom: 94px;
     display: none;
@@ -8,33 +8,33 @@
     }
 
     &__title {
-        
+
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
-    
+
         color: $main-text-color;
     }
-   
-    
+
+
     &__list {
         @extend %flex;
         margin-top: 50px;
-    
+
         & li {
             margin-right: 30px;
-            outline: solid red;
-        
+            // outline: solid red;
+
         }
-        
-        & li:last-child{
+
+        & li:last-child {
             margin-right: 0;
         }
     }
 
 
 
-        
-    }
+
+}

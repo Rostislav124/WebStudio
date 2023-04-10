@@ -20,10 +20,10 @@
             font-size: 36px;
             line-height: 42px;
         }
-    
+
     }
-    
-    
+
+
     &__list {
         @extend %flex;
         flex-direction: column;
@@ -32,21 +32,22 @@
         @media screen and (min-width: 768px) {
             flex-direction: row;
         }
-    
+
     }
-    
+
     &__item {
-        
+
         background: $secondary-text-color;
-    
+
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         margin-top: 30px;
 
-    
-        &:last-child{
+
+        &:last-child {
             margin-right: 0;
         }
+
         @media screen and (min-width: 480px) {
             width: 450px;
             padding-bottom: 24px;
@@ -63,8 +64,8 @@
             padding-bottom: 30px;
         }
     }
-    
-    
+
+
     &__photo {
         width: 450px;
         border-radius: 0px;
@@ -78,43 +79,42 @@
             width: 270px;
         }
     }
-    
+
     &__forename {
         font-weight: 500;
         @extend %text;
-    
+
         /* text-align: center; */
         letter-spacing: 0.03em;
         text-align: center;
         margin-top: 30px;
-    
+
         color: $main-text-color;
-    
+
     }
-    
+
     &__position {
         font-weight: 400;
         @extend %text;
-    
+
         /* text-align: center; */
         letter-spacing: 0.03em;
         text-align: center;
-    
+
         color: $dark-text-color;
         margin-top: 10px;
-    
+
     }
 
 
 
-    
 
-    &__network{
+
+    &__network {
         // outline:solid red;
         width: 44px;
         height: 44px;
     }
 
-    
-}
 
+}
