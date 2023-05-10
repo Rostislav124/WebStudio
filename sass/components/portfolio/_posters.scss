@@ -1,34 +1,44 @@
-.posters{
+.posters {
     @extend %flex;
-    padding-top: 50px;
+    margin-top: 48px;
     gap: 30px;
 
     &__name {
+        margin-left: 24px;
+        margin-top: 20px;
         font-weight: 700;
         font-size: 18px;
         line-height: 36px;
-    
+
         letter-spacing: 0.06em;
-    
+
         color: $main-text-color;
-    
+
     }
-    
+
     &__text {
+        margin-left: 24px;
+        margin-top: 4px;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
-    
-        letter-spacing: 0.03em;
-    
-        color: $dark-text-color;
-    
-    }    
 
-    &__item{
-        width: 370px;
-        
+        letter-spacing: 0.03em;
+
+        color: $dark-text-color;
+
     }
-    
+
+    &__item {
+        width: 370px;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        padding-bottom: 20px;
+
+    }
+
 }
 
+.main {
+    padding-bottom: 94px;
+}

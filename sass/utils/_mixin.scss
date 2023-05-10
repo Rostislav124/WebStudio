@@ -1,3 +1,10 @@
-@mixin button(){
-    
+@mixin grids-list($gap) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $gap;
+}
+
+@mixin grids-item($items, $gap) {
+    flex-basis: calc((100% - ($items * $gap)) / $items);
 }

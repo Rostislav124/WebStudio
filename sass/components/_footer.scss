@@ -1,7 +1,7 @@
 .footer {
-    height: 252px;
-    left: 0px;
-    top: 2676px;
+
+    padding-bottom: 60px;
+ 
 
     background: $footer-bg;
     padding-top: 60px;
@@ -24,6 +24,7 @@
     }
 
     &__address {
+        margin-top: 20px;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -44,6 +45,10 @@
 
         color: $footer-link;
 
+    }
+
+    &__item{
+        margin-top: 9px;
     }
 
 
@@ -115,6 +120,9 @@
 }
 
 .buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 50px;
     background: #2196F3;
@@ -124,7 +132,8 @@
     margin-left: 12px;
 
     &__svg {
-        color: #FFFFFF;
+        margin-left: 10px;
+        fill: #FFFFFF;
     }
 }
 

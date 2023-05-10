@@ -2,6 +2,31 @@
     height: 80px;
     padding-top: 24px;
 
+    &__active::after {
+
+
+        @media screen and (min-width: 768px) {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 4px;
+            background-color: #2196F3;
+            border-radius: 2px;
+            left: 0;
+            // bottom: -32px;
+            bottom: -25px;
+
+        }
+
+        @media screen and (min-width: 1200px) {
+            bottom: -32px;
+
+        }
+
+
+    }
+
     .container {
         display: flex;
 
@@ -64,6 +89,7 @@
     }
 
     &__link {
+        position: relative;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -157,6 +183,8 @@
             display: none;
         }
     }
+
+
 
 }
 
@@ -265,5 +293,7 @@
         }
 
     }
+
+
 
 }

@@ -1,7 +1,7 @@
 const refs = {
     openModalBtn: document.querySelector("[data-open-menu]"),
     closeModalBtn: document.querySelector("[data-close-menu]"),
-    backdrop: document.querySelector("[data-overlay]"),
+    backdrop: document.querySelector("[data-menu]"),
 };
 
 refs.openModalBtn.addEventListener("click", toggleModal);

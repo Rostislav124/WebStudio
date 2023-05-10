@@ -96,6 +96,24 @@ body {
   height: 80px;
   padding-top: 24px;
 }
+@media screen and (min-width: 768px) {
+  .header__active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
+    left: 0;
+    bottom: -25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__active::after {
+    bottom: -32px;
+  }
+}
 .header .container {
   display: flex;
 }
@@ -143,6 +161,7 @@ body {
   }
 }
 .header__link {
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -313,6 +332,9 @@ body {
   padding-top: 118px;
   padding-bottom: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/hero-mobile@1x-min.jpg);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
@@ -375,6 +397,32 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 30px;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal2 {
+  padding-top: 48px;
+  position: fixed;
+  width: 480px;
+  height: 796px;
+  background-color: white;
+  left: 0;
+  top: 0;
+}
+.modal2__button2 {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  display: flex;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  background-color: white;
 }
 
 .features {
@@ -677,9 +725,6 @@ body {
   align-items: center;
   fill: currentColor;
 }
-.almosttheend__icon:hover {
-  color: #2196F3;
-}
 .almosttheend__link {
   width: 100%;
   height: 100px;
@@ -690,6 +735,9 @@ body {
   justify-content: center;
   color: #AFB1B8;
 }
+.almosttheend__link:hover .almosttheend__icon {
+  color: #2196F3;
+}
 .almosttheend__link:hover {
   width: 170px;
   height: 90px;
@@ -698,9 +746,7 @@ body {
 }
 
 .footer {
-  height: 252px;
-  left: 0px;
-  top: 2676px;
+  padding-bottom: 60px;
   background: #2F303A;
   padding-top: 60px;
 }
@@ -717,6 +763,7 @@ body {
   color: #FFFFFF;
 }
 .footer__address {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -730,6 +777,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer__item {
+  margin-top: 9px;
 }
 .footer__title {
   font-weight: 700;
@@ -783,6 +833,9 @@ body {
 }
 
 .buton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 50px;
   background: #2196F3;
@@ -792,7 +845,8 @@ body {
   margin-left: 12px;
 }
 .buton__svg {
-  color: #FFFFFF;
+  margin-left: 10px;
+  fill: #FFFFFF;
 }
 
 .form {
